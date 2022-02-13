@@ -1,0 +1,8 @@
+<div class="container">
+  <app-product-list class="card p-2"></app-product-list>
+
+  <h1>The session id is {{ sessionId }}</h1>
+  <div *ngIf="selectedProduct?.name" class="card">
+    <h1>You selected {{ selectedProduct.name }}</h1>
+  </div>
+</div>
